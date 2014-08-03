@@ -12,4 +12,4 @@ My current passions are web APIs, polyglot programming, and civic hacking.
 
 I really enjoy working with designers and writers.
 
-In the summertime I drive a combine. I also enjoy traveling, mountains, oceans, baseball, and bicycles.
+In the summertime I drive a combine. I also like traveling, skiing, baseball, and bicycles.
