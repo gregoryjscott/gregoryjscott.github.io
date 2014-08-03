@@ -1,7 +1,7 @@
 # Contact me.
 
-Shoot me an [email](mailto:me@gregoryjscott.com).
+Email [me](mailto:me@gregoryjscott.com).
 
-Collaborate with me on [GitHub](https://github.com/gregoryjscott).
+Ping [gregoryjscott](https://github.com/gregoryjscott) on GitHub.
 
-Occasionally I'm on [Twitter](https://twitter.com/gregoryjscott).
+Tweet at [gregoryjscott](https://twitter.com/gregoryjscott).
