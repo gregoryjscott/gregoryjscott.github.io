@@ -14,7 +14,7 @@ _November 1999 - June 2005_
 
 Lead Programmer for Municipal Accounting Systems, Inc, based in Shawnee, Oklahoma, that provides accounting and student information software solutions to school districts.
 
-Led the development team in replacing the entire DOS-based software product stack with a suite of Windows desktop applications; created tools to streamline repetitive company tasks such as configuring databases, performed data imports from other vendor products, and deploying software updates; developed the Student Infrastructure Framework (SIF) agent that gives the Oklahoma State Department of Education (OSDE) the ability to submit queries and receive real-time student data changes.
+Led the development team in replacing the entire DOS-based software product stack with a suite of Windows desktop applications; created tools to streamline repetitive company tasks such as configuring databases, performing data imports from other vendor products, and deploying software updates; developed the Student Infrastructure Framework (SIF) agent that gives the Oklahoma State Department of Education (OSDE) the ability to submit queries and receive real-time student data changes.
 
 ## Embedded Software Engineer - Boeing, Defense and Space Group
 
