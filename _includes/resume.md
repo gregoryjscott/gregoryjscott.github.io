@@ -1,1 +1,1 @@
-# [My resume](/resume).
+# [View resume](/resume).
