@@ -1,1 +1,0 @@
-# [View resume](/resume).
