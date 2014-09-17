@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-<section markdown="1">
 # Gregory J. Scott
+
+<section markdown="1">
 * [http://gregoryjscott.com](http://gregoryjscott.com)
 * [me@gregoryjscott.com](mailto:me@gregoryjscott.com)
 </section>

@@ -1,5 +1,3 @@
-# Hi I'm Greg, a full-stack developer.
-
 For 20 years I've learned new software languages, libraries, frameworks, databases, operating systems, products, and services. It never gets old.
 
 I've programmed PCs, Macs, mainframes, hand-held range finders, GPS devices, a laser mounted to single-engine plane, smartphones, tablets, calculators, and B-1 Bombers.
