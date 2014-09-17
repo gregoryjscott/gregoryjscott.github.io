@@ -14,7 +14,7 @@ _November 1999 - June 2005_
 
 Lead Programmer for Municipal Accounting Systems, Inc, based in Shawnee, Oklahoma, that provides accounting and student information software solutions to school districts.
 
-Led the development team in replacing the entire DOS-based software product stack with a suite of Windows desktop applications; created tools to streamline repetitive company tasks such as configuring databases, performing data imports from other vendor products, and deploying software updates; developed the Student Infrastructure Framework (SIF) agent that gives the Oklahoma State Department of Education (OSDE) the ability to submit queries and receive real-time student data changes.
+Led the development team in replacing the entire DOS-based software product stack with a suite of Windows desktop applications; developed the Student Infrastructure Framework (SIF) agent that gives the Oklahoma State Department of Education (OSDE) the ability to submit queries and receive real-time student data changes; created tools to streamline repetitive company tasks such as configuring databases, performing data imports from other vendor products, and deploying software updates
 
 ## Embedded Software Engineer - Boeing, Defense and Space Group
 
@@ -22,4 +22,4 @@ _August 1998 - November 1999_
 
 Embedded Software Engineer for Boeing, Defense and Space Group, based in Oklahoma City, Oklahoma, that developed the B1-B Bomber Block E software upgrade.
 
-Developed the mission data loading interface used to distribute mission data throughout the multi-threaded avionic flight software; developed the software for the System Management Function displays, as well as the Device Backup displays used to emulate switch panels and keyboards in cases of hardware failure.
+Designed and developed the mission data loading interface used to distribute mission data throughout the multi-threaded avionic flight software; developed the Device Backup displays used to emulate switch panels and keyboards in cases of hardware failure; developed the System Management Function displays used to monitor and administer the system
