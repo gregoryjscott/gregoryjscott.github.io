@@ -1,2161 +1,6356 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/site.css"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-<head>
-<body>
-  <div class="border"></div>
-  <header>
-    <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
-      <ul class="pure-menu-list">
-        <li class="pure-menu-item" id="home-menu"><a class="pure-menu-link home" href="/">Gregory J. Scott</a></li>
-        <li class="pure-menu-item" id="resume-menu"><a class="pure-menu-link" href="/resume">Resume</a></li>
-        <li class="pure-menu-item" id="project-menu"><a class="pure-menu-link" href="/projects">Projects</a></li>
-        <li class="pure-menu-item" id="language-menu"><a class="pure-menu-link" href="/languages">Languages</a></li>
-        <li class="pure-menu-item" id="db-menu"><a class="pure-menu-link" href="/db">Databases</a></li>
-      </ul>
-    </div>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Gregory J. Scott</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" href="/assets/css/theme.css"/>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/menu.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox" hidden />
+<header class="menu">
+  <label for="menu-toggle" class="menu-btn" aria-label="Toggle menu">
+    <span></span>
+  </label>
+  <div class="menu-overlay">
+    <ul>
+      <li><a href="/">Home</a></li>
+      
+        
+        
+        <li><a href="/resume/">Resume</a></li>
+      
+        
+        
+        <li><a href="/projects/">Projects</a></li>
+      
+        
+        
+        <li><a href="/languages/">Languages</a></li>
+      
+        
+        
+        <li><a href="/db/">Databases</a></li>
+      
+        
+        
+        <li><a href="/tools/">Tools</a></li>
+      
+        
+        
+        <li><a href="/os/">Operating Systems</a></li>
+      
+        
+        
+        <li><a href="/jobs/">Jobs</a></li>
+      
+        
+        
+        <li><a href="/schools/">Schools</a></li>
+      
+    </ul>
+  </div>
+</header>
 
-    <h1>Projects</h1>
-  </header>
+    <main>
+
+
+<nav>
+  <a href="">Home</a> /
+  Projects
+</nav>
+
+<h1>Projects</h1>
+
+
+  <p>Projects I've developed, starting with the most recent.</p>
+
+
+
+  
+
+
+
 
   <section>
-  <p>These are most of my current and past projects. Projects can also be explored by skill such as <a href="/languages">language</a> or <a href="/db">database</a>.</p>
-</section>
+  <header>
+    <h2>
+      <a href="/projects/nuggets/">Nuggets</a>
+    </h2>
 
-<section>
-
-  <h1><a href="/projects/this-site/">This Site</a></h1>
-
-  <p><em>Author, 2014 - present</em></p>
-
-  
-  <p>My website/experiment that uses Jekyll to create static HTML pages using YAML, Markdown, and hypermedia.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-  <li>
-    code:
-    
-  
-    
-      <a class="resource-links" href="https://github.com/gregoryjscott/me">github.com/gregoryjscott/me</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/css/">CSS</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/html/">HTML</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/rb/">Ruby</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/simpler/">Simpler</a></h1>
-
-  <p><em>Author, 2010 - present</em></p>
-
-  
-  <p>Library that provides a simpler approach to C# class design.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-  <li>
-    code:
-    
-  
-    
-      <a class="resource-links" href="https://github.com/gregoryjscott/Simpler">github.com/gregoryjscott/Simpler</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/rb/">Ruby</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/denver-schedules-api/">Denver Schedules API</a></h1>
-
-  <p><em>Contributor, 2014</em></p>
-
-  
-  <p>JSON API that provides access to Denver activities that impact the residents of Denver.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-  <li>
-    code:
-    
-  
-    
-      <a class="resource-links" href="https://github.com/codeforamerica/denver-schedules-api">github.com/codeforamerica/denver-schedules-api</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/rb/">Ruby</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/postgres/">Postgres</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/centroid/">Centroid</a></h1>
-
-  <p><em>Contributor, 2014</em></p>
-
-  
-  <p>Library for accessing environment based configuration from multiple different programming languages.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-  <li>
-    code:
-    
-  
-    
-      <a class="resource-links" href="https://github.com/ResourceDataInc/Centroid">github.com/ResourceDataInc/Centroid</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/py/">Python</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/rb/">Ruby</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/agdc/">Alaska Gasline Development Corporation</a></h1>
-
-  <p><em>Technical Lead, 2013 - 2014</em></p>
-
-  
-  <p>Web application that provides AGDC with documentation, reporting, and querying tools for their vast GIS data and infrastructure.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/css/">CSS</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/html/">HTML</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/js/">JavaScript</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/py/">Python</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/rb/">Ruby</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/sql-server/">SQL Server</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/please/">Please</a></h1>
-
-  <p><em>Author, 2012 - 2014</em></p>
-
-  
-  <p>Please is a set of commands useful for maintaining software projects.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-  <li>
-    code:
-    
-  
-    
-      <a class="resource-links" href="https://github.com/ResourceDataInc/please">github.com/ResourceDataInc/please</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/rb/">Ruby</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/sqlite/">SQLite</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/ahfc-integration/">AHFC Integration</a></h1>
-
-  <p><em>Technical Lead, 2013</em></p>
-
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/sql-server/">SQL Server</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/systems-portal/">Systems Portal</a></h1>
-
-  <p><em>Technical Lead, 2013</em></p>
-
-  
-  <p>Web application for tracking data used by systems administrators.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/css/">CSS</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/html/">HTML</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/js/">JavaScript</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/sql-server/">SQL Server</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/scrum-tools/">Scrum Tools</a></h1>
-
-  <p><em>Technical Lead, 2012 - 2013</em></p>
-
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/css/">CSS</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/html/">HTML</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/js/">JavaScript</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/sql-server/">SQL Server</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/scramble-score/">ScrambleScore</a></h1>
-
-  <p><em>Project Manager, 2012 - 2013</em></p>
-
-  
-  <p>Mobile web application that allows golfers participating in scramble golf tournaments to record their scores and monitor the tournament leaderboard.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/css/">CSS</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/html/">HTML</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/js/">JavaScript</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/rb/">Ruby</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/postgres/">Postgres</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/energy-efficiency-map/">Energy Efficiency Map</a></h1>
-
-  <p><em>Technical Lead, 2012 - 2013</em></p>
-
-  
-  <p>Web application that allows the Alaska Energy Authority to monitor and administer data from their statewide energy saving programs.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/css/">CSS</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/html/">HTML</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/js/">JavaScript</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/sql-server/">SQL Server</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/qb/">Quality Bank</a></h1>
-
-  <p><em>Technical Lead, 2010 - 2012</em></p>
-
-  
-  <p>Web application that manages the workflow, pricing data, sampling data, volume data, and invoicing for the Trans-Alaska Pipeline System.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/css/">CSS</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/html/">HTML</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/js/">JavaScript</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/sql-server/">SQL Server</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/mvc-integration-test-framework/">MvcIntegrationTestFramework</a></h1>
-
-  <p><em>Author, 2010</em></p>
-
-  
-  <p>Framework that can be used to perform integration tests on a ASP.NET MVC application.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-  <li>
-    code:
-    
-  
-    
-      <a class="resource-links" href="https://github.com/gregoryjscott/MvcIntegrationTestFramework">github.com/gregoryjscott/MvcIntegrationTestFramework</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/consumption-views/">Consumption Views</a></h1>
-
-  <p><em>Lead Developer, 2009</em></p>
-
-  
-  <p>Set of database views that provides water consumption information that feed into reporting tools used by AWWU to make business decisions.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/oracle/">Oracle</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/somd/">Service Order Mobile Dispatch</a></h1>
-
-  <p><em>Technical Lead, 2009</em></p>
-
-  
-  <p>Mobile web application that allows Anchorage Water &amp; Wastewater Utility service workers to query and record service information while in the field.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/css/">CSS</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/html/">HTML</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/js/">JavaScript</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/oracle/">Oracle</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/lasar-range-finder/">Lasar Range Finder</a></h1>
-
-  <p><em>Lead Developer, 2008</em></p>
-
-  
-  <p>Software that records output from a handheld lasar range finder and combines it with records from a GPS unit which allows field workers to record the locations of objects that aren't assessible otherwise.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/access/">Access</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/database-sync-awwu/">Database Synchronization (AWWU)</a></h1>
-
-  <p><em>Lead Developer, 2008</em></p>
-
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/oracle/">Oracle</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/bit-proposal/">Bit Proposal</a></h1>
-
-  <p><em>Lead Developer, 2008</em></p>
-
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/awwu-intranet/">AWWU Intranet</a></h1>
-
-  <p><em>Technical Lead, 2005 - 2008</em></p>
-
-  
-  <p>Web application that contains AWWU's reporting and querying tools, systems status, and custom applications.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/css/">CSS</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/html/">HTML</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/js/">JavaScript</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/oracle/">Oracle</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/flir-monitoring/">FLIR Monitoring System</a></h1>
-
-  <p><em>Developer, 2007</em></p>
-
-  
-  <p>Software that reads the output from a FLIR laser mounted on a single engine plane used to fly over the Alaska North Slope and record land information.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/access/">Access</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/sar-reports/">SAR Reports</a></h1>
-
-  <p><em>Lead Developer, 2007</em></p>
-
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/oracle/">Oracle</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/train-builder/">TrainBuilder</a></h1>
-
-  <p><em>Developer, 2007</em></p>
-
-  
-  <p>Windows Presentation Framework (WPF) application used by the Alaska Railroad to plan and schedule structure of their trains.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/sql-server/">SQL Server</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/cis-data-capture/">CIS Data Capture</a></h1>
-
-  <p><em>Technical Lead, 2006</em></p>
-
-  
-  <p>Console application that captures monthly snapshots of AWWU's customer information system (CIS) data and loads it into a data warehouse.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/oracle/">Oracle</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/awwu-job-scheduler/">AWWU Job Scheduler</a></h1>
-
-  <p><em>Technical Lead, 2005 - 2006</em></p>
-
-  
-  <p>Framework for creating background processing jobs that migrate, synchronize, and transform data throughout AWWU's integrated systems.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/oracle/">Oracle</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/awwu-systems-integration/">AWWU Systems Integration</a></h1>
-
-  <p><em>Technical Lead, 2005 - 2006</em></p>
-
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/oracle/">Oracle</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/report-engine/">Report Engine</a></h1>
-
-  <p><em>Lead Developer, 2005</em></p>
-
-  
-  <p>C# library for producing HTML reports based on database queries.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/employee-suggestions/">Employees Suggestion</a></h1>
-
-  <p><em>Lead Developer, 2005</em></p>
-
-  
-  <p>Oracle Forms application that allows AWWU employees to submit suggestions for improving the AWWU workplace.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
     
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/tsql/">Transact-SQL</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/oracle/">Oracle</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/sif-agent/">SIF Agent</a></h1>
-
-  <p><em>Lead Developer, 2004 - 2005</em></p>
-
-  
-  <p>Schools Interoperability Framework (SIF) compliant agent that allows the Oklahoma State Department of Education to submit queries and receive real-time student data changes from schools in Oklahoma.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/cs/">C#</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/pervasive/">Pervasive</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/wengage-acct/">Wen-GAGE Accounting</a></h1>
-
-  <p><em>Lead Developer, 1999 - 2004</em></p>
-
-  
-  <p>Desktop application that is used by schools in Oklahoma to manage all their school accounting responsibilites.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/delphi/">Delphi</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/btrieve/">Btrieve</a>,
-    
-  
-    
-      <a class="resource-links" href="/db/pervasive/">Pervasive</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/wengage-si/">Wen-GAGE Student Information</a></h1>
-
-  <p><em>Lead Developer, 1999 - 2004</em></p>
-
-  
-  <p>Desktop application that is used by schools in Oklahoma to manage their student information such as enrollment, attendance, and grades.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/delphi/">Delphi</a>,
-    
-  
-    
-      <a class="resource-links" href="/languages/sql/">SQL</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/btrieve/">Btrieve</a>,
-    
-  
-    
-      <a class="resource-links" href="/db/pervasive/">Pervasive</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/class-scheduler/">Class Scheduler</a></h1>
-
-  <p><em>Lead Developer, 1999</em></p>
-
-  
-  <p>Process that takes student course requests along with the available courses, sections, and teachers and builds the class schedule.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/delphi/">Delphi</a>
-    
-  
-
-
-  </li>
-
-
-    
-  <li>
-    db:
-    
-  
-    
-      <a class="resource-links" href="/db/btrieve/">Btrieve</a>
-    
-  
-
-
-  </li>
-
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/mission-data-loader/">Mission Data Loader</a></h1>
-
-  <p><em>Embedded Software Engineer, 1998 - 1999</em></p>
-
-  
-  <p>Thread responsible for reading the contents of a cartridge containing mission data and distributing it throughout the avionic flight software.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/ada/">Ada 95</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/smf-controls-displays/">SMF Controls and Displays</a></h1>
-
-  <p><em>Embedded Software Engineer, 1998 - 1999</em></p>
-
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/ada/">Ada 95</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-  <h1><a href="/projects/backup-controls-displays/">Backup Controls and Displays</a></h1>
-
-  <p><em>Embedded Software Engineer, 1998 - 1999</em></p>
-
-  
-  <p>Screens used to emulate hardware such as switch boards and displays in the event of their failure.</p>
-  
-
-  
-  <ul>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-  <li>
-    languages:
-    
-  
-    
-      <a class="resource-links" href="/languages/ada/">Ada 95</a>
-    
-  
-
-
-  </li>
-
-
-    
-
-  </ul>
-
-  <p></p>
-
-  
-
-
-
-</section>
-
-<hr />
+      
 
-<section>
-  <h1>Learn what I can do for you.</h1>
 
   <p>
-<a class="button recommend" href="mailto:me@gregoryjscott.com">Email Greg</a>
-</p>
+    <em>2023&nbsp;–&nbsp;present, Author</em>
+  </p>
 
+    
+
+    
+  </header>
+
+  
+    <p>React Native app for iOS and Android that uses AI and finite state machines to generate personalized learning curriculum.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/ts/">Typescript</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/ddb/">DynamoDB</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Tools:
+    
+  
+    
+      <a href="/tools/amplify/">Amplify</a>,
+    
+  
+    
+      <a href="/tools/azure-ai/">Azure AI</a>,
+    
+  
+    
+      <a href="/tools/docker/">Docker</a>,
+    
+  
+    
+      <a href="/tools/ec2/">EC2</a>,
+    
+  
+    
+      <a href="/tools/ecr/">ECR</a>,
+    
+  
+    
+      <a href="/tools/ecs/">ECS</a>,
+    
+  
+    
+      <a href="/tools/expo/">Expo</a>,
+    
+  
+    
+      <a href="/tools/fargate/">Fargate</a>,
+    
+  
+    
+      <a href="/tools/iam/">IAM</a>,
+    
+  
+    
+      <a href="/tools/node/">Node</a>,
+    
+  
+    
+      <a href="/tools/openai/">OpenAI</a>,
+    
+  
+    
+      <a href="/tools/react-native/">React Native</a>,
+    
+  
+    
+      <a href="/tools/s3/">S3</a>,
+    
+  
+    
+      <a href="/tools/sqs/">SQS</a>,
+    
+  
+    
+      <a href="/tools/vpc/">VPC</a>,
+    
+  
+    
+      <a href="/tools/xstate/">XState</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/android/">Android</a>,
+    
+  
+    
+      <a href="/os/ios/">iOS</a>,
+    
+  
+    
+      <a href="/os/linux/">Linux</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
 </section>
 
-<script>
-element = document.getElementById("project-menu");
-element.className += " active";
-</script>
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/this-site/">gregoryjscott.com</a>
+    </h2>
+
+    
+      
 
 
-</body>
+  <p>
+    <em>2014&nbsp;–&nbsp;present, Author</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>My portfolio website that uses Jekyll to create static HTML pages using YAML, Markdown, and HAL-based hypermedia.</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/gregoryjscott/me">github.com/gregoryjscott/me</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/css/">CSS</a>,
+    
+  
+    
+      <a href="/languages/html/">HTML</a>,
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>,
+    
+  
+    
+      <a href="/languages/ts/">Typescript</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Tools:
+    
+  
+    
+      <a href="/tools/hal/">HAL</a>,
+    
+  
+    
+      <a href="/tools/jekyll/">Jekyll</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>,
+    
+  
+    
+      <a href="/os/macos/">macOS</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/la-boda/">hazelandgreg.wedding</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2025, Author</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Wedding website for Hazel and Greg</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/css/">CSS</a>,
+    
+  
+    
+      <a href="/languages/html/">HTML</a>,
+    
+  
+    
+      <a href="/languages/js/">JavaScript</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/ddb/">DynamoDB</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Tools:
+    
+  
+    
+      <a href="/tools/amplify/">Amplify</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/epic-ca-enrollment/">Epic California Academy Enrollment</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2017&nbsp;–&nbsp;2021, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/php/">PHP</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/firebase/">Firebase</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/fe/">Futuristic Education</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/epicloud/">EpiCloud</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2015&nbsp;–&nbsp;2021, Programmer/Consultant</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>AWS-based bot network that automates operations of a virtual charter school, enabling the school to scale seamlessly from 1,500 to over 60,000 students.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/ts/">Typescript</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/bigquery/">BigQuery</a>,
+    
+  
+    
+      <a href="/db/ddb/">DynamoDB</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Tools:
+    
+  
+    
+      <a href="/tools/docker/">Docker</a>,
+    
+  
+    
+      <a href="/tools/ec2/">EC2</a>,
+    
+  
+    
+      <a href="/tools/ecr/">ECR</a>,
+    
+  
+    
+      <a href="/tools/ecs/">ECS</a>,
+    
+  
+    
+      <a href="/tools/fargate/">Fargate</a>,
+    
+  
+    
+      <a href="/tools/firebase/">Firebase</a>,
+    
+  
+    
+      <a href="/tools/classroom/">Google Classroom</a>,
+    
+  
+    
+      <a href="/tools/drive/">Google Drive</a>,
+    
+  
+    
+      <a href="/tools/iam/">IAM</a>,
+    
+  
+    
+      <a href="/tools/node/">Node</a>,
+    
+  
+    
+      <a href="/tools/puppeteer/">Puppeteer</a>,
+    
+  
+    
+      <a href="/tools/s3/">S3</a>,
+    
+  
+    
+      <a href="/tools/sikulix/">SikuliX</a>,
+    
+  
+    
+      <a href="/tools/sqs/">SQS</a>,
+    
+  
+    
+      <a href="/tools/vpc/">VPC</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>,
+    
+  
+    
+      <a href="/os/macos/">macOS</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/fe/">Futuristic Education</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/aprender/">aprender</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2017, Author</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>CLI for learning Spanish</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/gregoryjscott/aprender">github.com/gregoryjscott/aprender</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/js/">JavaScript</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/macos/">macOS</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/cfw/">fortworthtexas.gov</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2015&nbsp;–&nbsp;2016, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Jekyll static site for the City of Fort Worth, Texas.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Tools:
+    
+  
+    
+      <a href="/tools/heroku/">Heroku</a>,
+    
+  
+    
+      <a href="/tools/jekyll/">Jekyll</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/centroid/">Centroid</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2014, Contributor</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Library for accessing environment based configuration from multiple different programming languages.</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/ResourceDataInc/Centroid">github.com/ResourceDataInc/Centroid</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/py/">Python</a>,
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>,
+    
+  
+    
+      <a href="/os/macos/">macOS</a>,
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/denver-schedules-api/">Denver Schedules API</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2014, Contributor</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>JSON API that provides access to Denver activities that impact the residents of Denver.</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/codeforamerica/denver-schedules-api">github.com/codeforamerica/denver-schedules-api</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/postgres/">Postgres</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/jekyll-api/">jekyll-api</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2014, Author</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>RubyGem Jekyll plugin that produces a JSON API from Markdown frontmatter.</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/gregoryjscott/jekyll-api">github.com/gregoryjscott/jekyll-api</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Tools:
+    
+  
+    
+      <a href="/tools/jekyll/">Jekyll</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>,
+    
+  
+    
+      <a href="/os/macos/">macOS</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/jekyll-embed/">jekyll-embed</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2014, Author</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>RubyGem Jekyll plugin that embeds HAL-based linked resources in Markdown. frontmatter</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/gregoryjscott/jekyll-embed">github.com/gregoryjscott/jekyll-embed</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Tools:
+    
+  
+    
+      <a href="/tools/hal/">HAL</a>,
+    
+  
+    
+      <a href="/tools/jekyll/">Jekyll</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>,
+    
+  
+    
+      <a href="/os/macos/">macOS</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/jekyll-load/">jekyll-load</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2014, Author</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>RubyGem Jekyll plugin that merges YAML data files into Markdown pages.</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/gregoryjscott/jekyll-load">github.com/gregoryjscott/jekyll-load</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Tools:
+    
+  
+    
+      <a href="/tools/jekyll/">Jekyll</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>,
+    
+  
+    
+      <a href="/os/macos/">macOS</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/jekyll-prep/">jekyll-prep</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2014, Author</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>RubyGem Jekyll plugin for transforming Jekyll page data during builds.</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/gregoryjscott/jekyll-prep">github.com/gregoryjscott/jekyll-prep</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Tools:
+    
+  
+    
+      <a href="/tools/jekyll/">Jekyll</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>,
+    
+  
+    
+      <a href="/os/macos/">macOS</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/agdc/">Alaska Gasline Development Corporation</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2013&nbsp;–&nbsp;2014, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Web application that provides AGDC with documentation, reporting, and querying tools for their vast GIS data and infrastructure.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/css/">CSS</a>,
+    
+  
+    
+      <a href="/languages/html/">HTML</a>,
+    
+  
+    
+      <a href="/languages/js/">JavaScript</a>,
+    
+  
+    
+      <a href="/languages/py/">Python</a>,
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/sql-server/">SQL Server</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/please/">Please</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2012&nbsp;–&nbsp;2014, Author</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Please is a set of commands useful for maintaining software projects.</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/ResourceDataInc/please">github.com/ResourceDataInc/please</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/sqlite/">SQLite</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/macos/">macOS</a>,
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/ahfc-integration/">AHFC Integration</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2013, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Alaska Housing Finance Corporation Integration</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/sql-server/">SQL Server</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/systems-portal/">Systems Portal</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2013, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Web application for tracking data used by systems administrators.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/css/">CSS</a>,
+    
+  
+    
+      <a href="/languages/html/">HTML</a>,
+    
+  
+    
+      <a href="/languages/js/">JavaScript</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/sql-server/">SQL Server</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/energy-efficiency-map/">Energy Efficiency Map</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2012&nbsp;–&nbsp;2013, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Web application that allows the Alaska Energy Authority to monitor and administer data from their statewide energy saving programs.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/css/">CSS</a>,
+    
+  
+    
+      <a href="/languages/html/">HTML</a>,
+    
+  
+    
+      <a href="/languages/js/">JavaScript</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/sql-server/">SQL Server</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/scramble-score/">ScrambleScore</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2012&nbsp;–&nbsp;2013, Project Manager</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Mobile web application that allows golfers participating in scramble golf tournaments to record their scores and monitor the tournament leaderboard.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/css/">CSS</a>,
+    
+  
+    
+      <a href="/languages/html/">HTML</a>,
+    
+  
+    
+      <a href="/languages/js/">JavaScript</a>,
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/postgres/">Postgres</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/linux/">Linux</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/scrum-tools/">Scrum Tools</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2012&nbsp;–&nbsp;2013, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/css/">CSS</a>,
+    
+  
+    
+      <a href="/languages/html/">HTML</a>,
+    
+  
+    
+      <a href="/languages/js/">JavaScript</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/sql-server/">SQL Server</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/simpler/">Simpler</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2010&nbsp;–&nbsp;2013, Author</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Library that provides a simpler approach to C# class design.</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/gregoryjscott/Simpler">github.com/gregoryjscott/Simpler</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/rb/">Ruby</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/qb/">Quality Bank</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2010&nbsp;–&nbsp;2012, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Rewrite of the Trans-Alaska Pipeline's $1B/month invoicing system, treating business rules as versioned data to give the client full control over constant, retroactive changes.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/css/">CSS</a>,
+    
+  
+    
+      <a href="/languages/html/">HTML</a>,
+    
+  
+    
+      <a href="/languages/js/">JavaScript</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/sql-server/">SQL Server</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Tools:
+    
+  
+    
+      <a href="/tools/backbone/">Backbone.js</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/mvc-integration-test-framework/">MvcIntegrationTestFramework</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2010, Author</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Framework that can be used to perform integration tests on a ASP.NET MVC application.</p>
+  
+
+  
+    <ul>
+  
+    <li>
+      Code: <a href="https://github.com/gregoryjscott/MvcIntegrationTestFramework">github.com/gregoryjscott/MvcIntegrationTestFramework</a>
+    </li>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/independent/">Independent Programmer and Consultant</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/consumption-views/">Consumption Views</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2009, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Set of database views that provides water consumption information that feed into reporting tools used by AWWU to make business decisions.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/oracle/">Oracle</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/somd/">Service Order Mobile Dispatch</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2009, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Mobile web application that allows Anchorage Water & Wastewater Utility service workers to query and record service information while in the field.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/css/">CSS</a>,
+    
+  
+    
+      <a href="/languages/html/">HTML</a>,
+    
+  
+    
+      <a href="/languages/js/">JavaScript</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/oracle/">Oracle</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/bit-proposal/">Bit Proposal</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2008, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/database-sync-awwu/">Database Synchronization (AWWU)</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2008, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/oracle/">Oracle</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/laser-range-finder/">Laser Range Finder</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2008, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Software that records output from a handheld laser range finder and combines it with records from a GPS unit which allows field workers to record the locations of objects that aren't assessible otherwise.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/access/">Access</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/awwu-intranet/">AWWU Intranet</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2005&nbsp;–&nbsp;2008, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Web application that contains AWWU's reporting and querying tools, systems status, and custom applications.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/css/">CSS</a>,
+    
+  
+    
+      <a href="/languages/html/">HTML</a>,
+    
+  
+    
+      <a href="/languages/js/">JavaScript</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/oracle/">Oracle</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/flir-monitoring/">FLIR Monitoring System</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2007, Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Software that reads the output from a FLIR laser mounted on a single engine plane used to fly over the Alaska North Slope and record land information.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/access/">Access</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/sar-reports/">SAR Reports</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2007, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/oracle/">Oracle</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/train-builder/">TrainBuilder</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2007, Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Windows Presentation Framework (WPF) application used by the Alaska Railroad to plan and schedule structure of their trains.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/sql-server/">SQL Server</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/cis-data-capture/">CIS Data Capture</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2006, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Console application that captures monthly snapshots of AWWU's customer information system (CIS) data and loads it into a data warehouse.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/oracle/">Oracle</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/awwu-job-scheduler/">AWWU Job Scheduler</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2005&nbsp;–&nbsp;2006, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Framework for creating background processing jobs that migrate, synchronize, and transform data throughout AWWU's integrated systems.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/oracle/">Oracle</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/awwu-systems-integration/">AWWU Systems Integration</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2005&nbsp;–&nbsp;2006, Technical Lead</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/oracle/">Oracle</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/employee-suggestions/">Employees Suggestion</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2005, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Oracle Forms application that allows AWWU employees to submit suggestions for improving the AWWU workplace.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/oracle/">Oracle</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/report-engine/">Report Engine</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2005, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>C# library for producing HTML reports based on database queries.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/rdi/">Resource Data, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/sif-agent/">SIF Agent</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>2004&nbsp;–&nbsp;2005, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>State of Oklahoma's first Schools Interoperability Framework (SIF) compliant reporting agent, securing our company's position as the dominant market provider for over 500 school districts.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/cs/">C#</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/pervasive/">Pervasive</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/mas/">Municipal Accounting Systems, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/wengage-acct/">Wen-GAGE Accounting</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>1999&nbsp;–&nbsp;2004, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Desktop application that is used by schools in Oklahoma to manage all their school accounting responsibilites.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/delphi/">Delphi</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/btrieve/">Btrieve</a>,
+    
+  
+    
+      <a href="/db/pervasive/">Pervasive</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/netware/">NetWare</a>,
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/mas/">Municipal Accounting Systems, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/wengage-si/">Wen-GAGE Student Information</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>1999&nbsp;–&nbsp;2004, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Desktop application that is used by schools in Oklahoma to manage their student information such as enrollment, attendance, and grades.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/delphi/">Delphi</a>,
+    
+  
+    
+      <a href="/languages/sql/">SQL</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/btrieve/">Btrieve</a>,
+    
+  
+    
+      <a href="/db/pervasive/">Pervasive</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/netware/">NetWare</a>,
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/mas/">Municipal Accounting Systems, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/class-scheduler/">Class Scheduler</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>1999, Lead Developer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Process that takes student course requests along with the available courses, sections, and teachers and builds the class schedule.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/delphi/">Delphi</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Databases:
+    
+  
+    
+      <a href="/db/btrieve/">Btrieve</a>,
+    
+  
+    
+      <a href="/db/pervasive/">Pervasive</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/netware/">NetWare</a>,
+    
+  
+    
+      <a href="/os/windows/">Windows</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/mas/">Municipal Accounting Systems, Inc.</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/backup-controls-displays/">Backup Controls and Displays</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>1998&nbsp;–&nbsp;1999, Embedded Software Engineer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Screens used to emulate hardware such as switch boards and displays in the event of their failure.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/ada/">Ada 95</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/solaris/">Solaris</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/boeing/">Boeing, Defense & Space Group</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/mission-data-loader/">Mission Data Loader</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>1998&nbsp;–&nbsp;1999, Embedded Software Engineer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Mission Data Loader for the B-1 Bomber's avionics software upgrade, implemented as a publish-subscribe interface for distributing critical flight and targeting data across the system.</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/ada/">Ada 95</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/solaris/">Solaris</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/boeing/">Boeing, Defense & Space Group</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+  <section>
+  <header>
+    <h2>
+      <a href="/projects/smf-controls-displays/">System Management Function (SMF) Controls and Displays</a>
+    </h2>
+
+    
+      
+
+
+  <p>
+    <em>1998&nbsp;–&nbsp;1999, Embedded Software Engineer</em>
+  </p>
+
+    
+
+    
+  </header>
+
+  
+    <p>Screens used to monitor the B-1’s custom-built avionics operating system</p>
+  
+
+  
+    <ul>
+  
+  
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Languages:
+    
+  
+    
+      <a href="/languages/ada/">Ada 95</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+      
+      
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Operating Systems:
+    
+  
+    
+      <a href="/os/solaris/">Solaris</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+        
+        
+        
+  <li>
+    Jobs:
+    
+  
+    
+      <a href="/jobs/boeing/">Boeing, Defense & Space Group</a>
+    
+  
+
+
+  </li>
+
+
+      
+    
+      
+      
+      
+    
+  
+</ul>
+
+  
+</section>
+
+</main>
+    <footer>
+      <nav>
+        <a href="mailto:me@gregoryjscott.com">Email</a> |
+        <a href="https://github.com/gregoryjscott">GitHub</a> |
+        <a href="https://x.com/gregoryjscott">Twitter</a>
+      </nav>
+    </footer>
+  </body>
 </html>

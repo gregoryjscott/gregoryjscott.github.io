@@ -1,47 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/site.css"/>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-<head>
-<body>
-  <div class="border"></div>
-  <header>
-    <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
-      <ul class="pure-menu-list">
-        <li class="pure-menu-item" id="home-menu"><a class="pure-menu-link home" href="/">Gregory J. Scott</a></li>
-        <li class="pure-menu-item" id="resume-menu"><a class="pure-menu-link" href="/resume">Resume</a></li>
-        <li class="pure-menu-item" id="project-menu"><a class="pure-menu-link" href="/projects">Projects</a></li>
-        <li class="pure-menu-item" id="language-menu"><a class="pure-menu-link" href="/languages">Languages</a></li>
-        <li class="pure-menu-item" id="db-menu"><a class="pure-menu-link" href="/db">Databases</a></li>
-      </ul>
-    </div>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Gregory J. Scott</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" href="/assets/css/theme.css"/>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/menu.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox" hidden />
+<header class="menu">
+  <label for="menu-toggle" class="menu-btn" aria-label="Toggle menu">
+    <span></span>
+  </label>
+  <div class="menu-overlay">
+    <ul>
+      <li><a href="/">Home</a></li>
+      
+        
+        
+        <li><a href="/resume/">Resume</a></li>
+      
+        
+        
+        <li><a href="/projects/">Projects</a></li>
+      
+        
+        
+        <li><a href="/languages/">Languages</a></li>
+      
+        
+        
+        <li><a href="/db/">Databases</a></li>
+      
+        
+        
+        <li><a href="/tools/">Tools</a></li>
+      
+        
+        
+        <li><a href="/os/">Operating Systems</a></li>
+      
+        
+        
+        <li><a href="/jobs/">Jobs</a></li>
+      
+        
+        
+        <li><a href="/schools/">Schools</a></li>
+      
+    </ul>
+  </div>
+</header>
 
-    <h1>Hi, I'm Greg. I'm a freelance programmer.</h1>
-  </header>
+    <main><section>
 
-  <article>
-  <p><strong>I’ve helped schools, governments, and businesses</strong> build systems that solve problems and can adapt as business needs change and technology evolves.</p>
+  <p>Hello,</p>
 
-  <p>Chances are good you’re dealing with some kind of technology problem at your place of work. <strong>I can help you.</strong></p>
-</article>
+  <p>Check out my <a href="/resume/">resume</a>!</p>
 
-<section>
-  <h1>Learn what I can do for you.</h1>
+  <p>I’ve programmed servers, clouds, PCs, Macs, iPhones, Androids, iPads, Chromebooks, TVs, mainframes, hand-held range finders, GPS devices, lasers mounted to planes, calculators, and B-1 Bombers.</p>
 
-  <p>
-<a class="button recommend" href="mailto:me@gregoryjscott.com">Email Greg</a>
-</p>
+  <p><a href="mailto:me@gregoryjscott.com">Reach out</a> if you’d like to work together.</p>
+
+  <p>Thanks for visiting.</p>
+
+  <p>Greg</p>
 
 </section>
-
-<script>
-element = document.getElementById("home-menu");
-element.className += " active";
-</script>
-
-
-</body>
+</main>
+    <footer>
+      <nav>
+        <a href="mailto:me@gregoryjscott.com">Email</a> |
+        <a href="https://github.com/gregoryjscott">GitHub</a> |
+        <a href="https://x.com/gregoryjscott">Twitter</a>
+      </nav>
+    </footer>
+  </body>
 </html>
